@@ -9,7 +9,7 @@
     "server-dev": "nodemon app/server/index.js",
     "server-prod": "node app/server/index.js",
     "react-prod": "webpack --config ./webpack.config.js",
-    "start": "npm run react-prod && NODE_ENV=PRODUCTION npm run server-prod",
+    "start": "npm run react-prod && NODE_ENV=PRODUCTION npm run server-prod"
   },
   "author": "Patrick Miner",
   "license": "ISC",

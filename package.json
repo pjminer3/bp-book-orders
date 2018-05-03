@@ -7,7 +7,7 @@
     "test": "jest",
     "react-dev": "webpack --config ./webpack.config.js --watch",
     "server-dev": "nodemon app/server/index.js",
-    "server-prod": "node app/server/index.js -d",
+    "server-prod": "node app/server/index.js",
     "react-prod": "webpack --config ./webpack.config.js"
   },
   "author": "Patrick Miner",

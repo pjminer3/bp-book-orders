@@ -4,6 +4,5 @@ node_js:
 install:
   - npm install
 before_script:
-  - npm run server-prod
   - npm run react-prod
-script: npm run test
+script: node ./app/server/index.js & npm run test

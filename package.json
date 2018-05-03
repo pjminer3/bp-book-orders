@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
     "test": "jest",
-    "react-dev": "webpack -d --watch",
+    "react-dev": "webpack --config ./webpack.config.js --watch",
     "server-dev": "nodemon app/server/index.js"
   },
   "author": "Patrick Miner",

@@ -1,1 +1,9 @@
 language: node_js
+node_js:
+  - 8.11.1
+install:
+  - npm install
+before_script:
+  - npm run server-dev
+  - npm run react-dev
+script: npm run test

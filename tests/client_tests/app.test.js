@@ -8,6 +8,5 @@ configure({ adapter: new Adapter() });
 
 test('Hello World component renders properly', () => {
   const app = shallow(<App />);
-
   expect(app.text()).toEqual('Hello World!');
 });

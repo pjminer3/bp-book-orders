@@ -4,6 +4,6 @@ node_js:
 install:
   - npm install
 before_script:
-  - npm run server-dev
-  - npm run react-dev
+  - npm run server-prod
+  - npm run react-prod
 script: npm run test

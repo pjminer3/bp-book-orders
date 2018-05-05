@@ -1,4 +1,11 @@
 # B&P Order Books #
+
+Technologies Used:
+- React
+- Redux
+- Material-UI
+- Node.js
+- Express
  
 ## Book Orders from Digital Asset Exchanges ##
 A one-stop-shop to view all recent orders placed on digital asset exchanges such as Bittrex and Poloniex (and soon to be more).
